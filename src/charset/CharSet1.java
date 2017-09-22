@@ -10,7 +10,7 @@ public class CharSet1 implements Set<Character> {
     // Rep invariant:
     //   s contains no repeated characters
     // Abstraction function:
-    //   AF(s) = {s[i] | 0 &lt;= i &lt; s.length()}
+    //   AF(s) = {s[i] | 0 <= i < s.length()}
     // Safety from rep exposure:
     //   All fields are private and immutable.
 

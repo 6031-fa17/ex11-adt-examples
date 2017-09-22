@@ -15,7 +15,7 @@ public class CharSet3 implements Set<Character> {
     //   chars is sorted in increasing order with no repeated characters, so
     //       chars.get(i) < chars.get(i+1) for all 0<=i<chars.size()-1
     // Abstraction function:
-    //   AF(s) = {chars.get(i) | 0 &lt;= i &lt; s.length()}
+    //   AF(s) = {chars.get(i) | 0 <= i < s.length()}
     // Safety from rep exposure:
     //   All fields are private.  The rep contains only one mutable type,
     //   List<Character>, and none of the parameters or return values of the public

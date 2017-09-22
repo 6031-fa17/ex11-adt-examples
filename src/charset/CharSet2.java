@@ -10,7 +10,7 @@ public class CharSet2 implements Set<Character> {
     // Rep invariant:
     //   true (i.e., s is a non-null String, but no more assumptions are made)
     // Abstraction function:
-    //   AF(s) = {s[i] | 0 &lt;= i &lt; s.length()}
+    //   AF(s) = {s[i] | 0 <= i < s.length()}
     // Safety from rep exposure:
     //   All fields are private and immutable.
     
